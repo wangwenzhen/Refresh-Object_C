@@ -39,6 +39,7 @@ NSString *const CLTableViewCellId = @"CellId";
     [self.view addSubview:self.tabelview];
     /** 执行刷新的添加 */
     [self setupRefresh];
+    NSLog(@"...");
 }
 - (void)setupRefresh{
     [self setUpSimpleHeader];
